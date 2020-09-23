@@ -1,0 +1,302 @@
+.user-dashboard-1 {
+    display: none;
+}
+.user-dashboard-2 {
+    display: block;
+}
+.send-invoice-info input,
+.service-inputs-block {
+    width: 355px;
+}
+.service-inputs  input {
+    width: 155px;
+}
+.items-service-send {
+    display: none;
+}
+.items-service-send-open {
+    display: flex;
+}
+.items-service-send-2 {
+    display: none;
+}
+.items-service-send-open-2 {
+    display: flex;
+}
+.my-team-content .user-dashboard-1 {
+    display: block;
+}
+.my-team-content .user-dashboard-2 {
+    display: none
+}
+.my-team-content .send-invoice-info input,
+.my-team-content .send-invoice-info select,
+.my-team-content .service-inputs-block {
+    width: 355px;
+}
+.my-team-content .service-inputs input{
+    width: 155px;
+}
+.my-team-content .items-service-send {
+    display: none;
+}
+.my-team-content .items-service-send-open {
+    display: flex;
+}
+.my-team-content .team-management {
+    max-width: 1700px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.my-team-content .team-block-item {
+    width: 210px;
+    height: 50px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #58595B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+    transition: 0.3s ease-in-out;
+    margin-top: 20px;
+}
+.my-team-content .active-team-block-item {
+    opacity: 1;
+}
+.my-team-content .team-block-item:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+.my-team-content .team-block-item-last {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #58595B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+    transition: 0.3s ease-in-out;
+    margin-top: 20px;
+}
+.my-team-content .team-block-item-last:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+.team-member-popup {
+    right: 0;
+    left: 0;
+    top: 58%;
+    background: white;
+    position: absolute;
+    margin: 0 auto;
+    width: 500px;
+    border: 1px solid #969696;
+    display: none;
+}
+.owner-member-popup {
+    right: 0;
+    left: 0;
+    top: 58%;
+    background: white;
+    position: absolute;
+    margin: 0 auto;
+    width: 500px;
+    border: 1px solid #969696;
+    display: none;
+}
+.my-team-pop-up-open {
+    display: block;
+}
+.team-management-2 .team-block-item {
+    color: #8DC63F;
+    border: 0;
+}
+.team-management-2 .team-block-item-last {
+    background: #8DC63F;
+    opacity: 1;
+    border: 0;
+}
+.team-img-active {
+    margin-left: 10px;
+}
+.team-info-block {
+    margin-top: 80px;
+}
+.team-info-block {
+    margin-left: 65px;
+}
+.team-text-1 {
+    color: #58595B;
+    font-size: 18px;
+    font-family: 'Segoe UI Semibold';
+    max-width: 700px;
+    margin-bottom: 30px;
+}
+.team-text-2 {
+    color: #58595B;
+    font-size: 16px;
+    font-family: 'Segoe UI Regular';
+    margin-bottom: 20px;
+}
+.team-text-2 img {
+    margin-right: 15px;
+}
+.team-lines {
+    width: 180px;
+    height: 1px;
+    background: #707070;
+    margin: 30px 0;
+}
+.team-img {
+    display: none;
+}
+.team-img-active {
+    display: block;
+}
+.team-info-block > div {
+    display: none;
+}
+.team-info-blocks {
+    display: block !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 1600px) {
+    .my-team-content .team-block-item-last {
+        margin-left: 20px;
+    }
+    .my-team-content .team-block-item {
+        margin-left: 20px;
+    }
+    .my-team-content .team-management {
+        justify-content: flex-end;
+        flex-wrap: wrap;
+    }
+}
+@media(max-width: 992px) {
+    .items-service-send.send-invoice {
+        justify-content: flex-start;
+        margin-left: 36px;
+    }
+    .items-service-send .send-invoice-content {
+        margin-right: 0;
+    }
+    .my-team-content .items-service-send.send-invoice {
+        justify-content: flex-start;
+        margin-left: 36px;
+    }
+    .my-team-content .items-service-send .send-invoice-content {
+        margin-right: 0;
+    }
+}
+
+@media(max-width: 767px) {
+    .team-management-2 .team-block-item {
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .team-info-block {
+        margin-left: 0;
+        margin-top: 63px;
+        text-align: center;
+    }
+    .send-invoice-info input,
+    .service-inputs-block {
+        width: 75%;
+    }
+    .team-text-1 {
+        font-size: 16px;
+    }
+    .team-text-2 {
+        font-size: 13px;
+    }
+    .service-inputs input {
+        width: 49% !important;
+    }
+    .items-service-send.send-invoice {
+        justify-content: center;
+        margin-left: 0;
+    }
+    .my-team-content .send-invoice-info input,
+    .my-team-content .send-invoice-info select,
+    .my-team-content .service-inputs-block {
+        width: 75%;
+    }
+    .my-team-content .service-inputs input {
+        width: 49% !important;
+    }
+    .my-team-content .items-service-send.send-invoice {
+        justify-content: center;
+        margin-left: 0;
+    }
+    .team-member-popup {
+        width: 93%;
+    }
+    .owner-member-popup {
+        width: 93%;
+    }
+}
+@media(max-width: 580px) {
+    .send-invoice-info input,
+    .service-inputs-block {
+        font-size: 12px;
+        width: 68%;
+    }
+    .send-invoice-info label {
+        font-size: 14px;
+    }
+    .send-invoice-btns {
+        flex-direction: column;
+    }
+    .send-invoice-btns > a {
+        margin-bottom: 15px;
+        font-size: 10px;
+    }
+    .send-invoice-title {
+        padding: 15px;
+    }
+    .my-team-content .team-management {
+        justify-content: center;
+        flex-direction: column;
+    }
+    .my-team-content .send-invoice-info input,
+    .my-team-content .send-invoice-info select,
+    .my-team-content .service-inputs-block {
+        font-size: 12px;
+        width: 68%;
+    }
+    .my-team-content .send-invoice-info label {
+        font-size: 14px;
+    }
+    .my-team-content .send-invoice-btns {
+        flex-direction: column;
+    }
+    .my-team-content .send-invoice-btns > a {
+        margin-bottom: 15px;
+        font-size: 10px;
+    }
+    .my-team-content .send-invoice-title {
+        padding: 15px;
+    }
+
+}
+
+
+
+

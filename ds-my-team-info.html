@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>EDKOS</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css"
+          integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+    <link rel="icon" href="img/logo.png"/>
+    <link rel="stylesheet" href="libs/css/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/css/font-awesome.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/ds-user-profile.css">
+    <link rel="stylesheet" href="css/ds-invoices.css">
+    <link rel="stylesheet" href="css/ds-clients.css">
+    <link rel="stylesheet" href="css/ds-invoice-template.css">
+    <link rel="stylesheet" href="css/ds-items-service.css">
+</head>
+<body>
+<aside class="my-team-content">
+    <div class="aside-content back-color-aside">
+        <div class="user-data">
+            <img class="user-data-img" src="img/dashboard/user.png">
+            <h3 class="user-data-title">Lia Smith</h3>
+            <div class="open-close-arrow">
+                <img src="img/dashboard/arrow.png">
+            </div>
+        </div>
+        <div class="open-close-menu" id="style-1">
+            <div class="user-dashboard-1">
+                <div class="settings-block">
+                    <a class="settings-block-item">
+                        <div class="settings-block-item-img">
+                            <img src="img/dashboard/home.png">
+                        </div>
+                        <div class="settings-block-item-block">
+                            <h5 class="settings-block-item-text">Dashboard</h5>
+                        </div>
+                    </a>
+                    <a class="settings-block-item" href="ds-clients.html">
+                        <div class="settings-block-item-img">
+                            <img src="img/dashboard/clients.png">
+                        </div>
+                        <div class="settings-block-item-block">
+                            <h5 class="settings-block-item-text">Clients</h5>
+                        </div>
+                    </a>
+                    <a class="settings-block-item" href="ds-invoices.html">
+                        <div class="settings-block-item-img">
+                            <img src="img/dashboard/invoices.png">
+                        </div>
+                        <div class="settings-block-item-block">
+                            <h5 class="settings-block-item-text">Invoices</h5>
+                        </div>
+                    </a>
+                    <a class="settings-block-item" href="ds-expenses.html">
+                        <div class="settings-block-item-img">
+                            <img src="img/dashboard/expenses.png">
+                        </div>
+                        <div class="settings-block-item-block">
+                            <h5 class="settings-block-item-text">Expenses</h5>
+                        </div>
+                    </a>
+                    <a class="settings-block-item" href="ds-estimates.html">
+                        <div class="settings-block-item-img">
+                            <img src="img/dashboard/estimates.png">
+                        </div>
+                        <div class="settings-block-item-block">
+                            <h5 class="settings-block-item-text">Estimates</h5>
+                        </div>
+                    </a>
+                    <a class="settings-block-item" href="ds-time-tracking.html">
+                        <div class="settings-block-item-img">
+                            <img src="img/dashboard/tracking.png">
+                        </div>
+                        <div class="settings-block-item-block">
+                            <h5 class="settings-block-item-text">Tracking</h5>
+                        </div>
+                    </a>
+                    <a class="settings-block-item" href="ds-projects.html">
+                        <div class="settings-block-item-img">
+                            <img src="img/dashboard/projects.png">
+                        </div>
+                        <div class="settings-block-item-block">
+                            <h5 class="settings-block-item-text">Projects</h5>
+                        </div>
+                    </a>
+                    <a class="settings-block-item active" href="ds-my-team.html">
+                        <div class="settings-block-item-img">
+                            <img src="img/dashboard/my-team.png">
+                        </div>
+                        <div class="settings-block-item-block">
+                            <h5 class="settings-block-item-text">My Team</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="user-dashboard-2">
+                <div class="settings-block back-color-settings">
+                    <h5 class="settings-block-title">Settings For You</h5>
+                    <a class="settings-block-item" href="ds-company-profile.html">
+                        <div class="settings-block-item-img">
+                            <img src="img/dashboard/home.png">
+                        </div>
+                        <div class="settings-block-item-block">
+                            <h5 class="settings-block-item-text">Company Profile</h5>
+                        </div>
+                    </a>
+                    <a class="settings-block-item" href="ds-items-services.html">
+                        <div class="settings-block-item-img">
+                            <img src="img/dashboard/list.png">
+                        </div>
+                        <div class="settings-block-item-block">
+                            <h5 class="settings-block-item-text">Items & Services</h5>
+                        </div>
+                    </a>
+                    <a class="settings-block-item">
+                        <div class="settings-block-item-img">
+                            <img src="img/dashboard/cube.png">
+                        </div>
+                        <div class="settings-block-item-block">
+                            <h5 class="settings-block-item-text">Apps  & Integrations</h5>
+                        </div>
+                    </a>
+                    <a class="settings-block-item" href="ds-online-payment-options.html">
+                        <div class="settings-block-item-img">
+                            <img src="img/dashboard/payment.png">
+                        </div>
+                        <div class="settings-block-item-block">
+                            <h5 class="settings-block-item-text">Online Payments</h5>
+                        </div>
+                    </a>
+                    <a class="settings-block-item" href="ds-bank-connections.html">
+                        <div class="settings-block-item-img">
+                            <img src="img/dashboard/bank.png">
+                        </div>
+                        <div class="settings-block-item-block">
+                            <h5 class="settings-block-item-text">Bank Connections</h5>
+                        </div>
+                    </a>
+                    <a class="settings-block-item" href="ds-billing-upgrade.html">
+                        <div class="settings-block-item-img">
+                            <img src="img/dashboard/upgrade.png">
+                        </div>
+                        <div class="settings-block-item-block">
+                            <h5 class="settings-block-item-text">Billing & Upgrade</h5>
+                        </div>
+                    </a>
+                    <div class="green-line"></div>
+                </div>
+                <div class="settings-block">
+                    <h5 class="settings-block-title">Personal</h5>
+                    <a class="settings-block-item" href="ds-user-profile.html">
+                        <div class="settings-block-item-img">
+                            <img src="img/dashboard/user-small.png">
+                        </div>
+                        <div class="settings-block-item-block">
+                            <h5 class="settings-block-item-text">Your Profile</h5>
+                        </div>
+                    </a>
+                    <a class="settings-block-item">
+                        <div class="settings-block-item-img">
+                            <img src="img/dashboard/help.png">
+                        </div>
+                        <div class="settings-block-item-block">
+                            <h5 class="settings-block-item-text">Help</h5>
+                        </div>
+                    </a>
+                    <a class="settings-block-item" href="ds-add-new-business.html">
+                        <div class="settings-block-item-img">
+                            <img src="img/dashboard/add.png">
+                        </div>
+                        <div class="settings-block-item-block">
+                            <h5 class="settings-block-item-text">Add Another Business</h5>
+                        </div>
+                    </a>
+                    <a class="settings-block-item">
+                        <div class="settings-block-item-img">
+                            <img src="img/dashboard/log-out.png">
+                        </div>
+                        <div class="settings-block-item-block">
+                            <h5 class="settings-block-item-text">Log Out</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex justify-content-center align-items-center aside-logo">
+        <img src="img/dashboard/logo.png">
+    </div>
+</aside>
+<main class="clients my-team-content">
+    <div class="dashboard-header">
+        <h1 class="dashboard-clients-title">My Team</h1>
+        <div class="clients-btns">
+            <a class="new-clients-btn add-team-member">ADD Team Member</a>
+        </div>
+        <div class="dashboard-form-mobile">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+    <div class="send-invoice items-service-send">
+        <div class="send-invoice-content">
+            <div class="send-invoice-top">
+                <img src="img/top.png">
+            </div>
+            <div class="send-invoice-title">
+                <p>SEND invitation</p>
+            </div>
+            <div class="send-invoice-info">
+                <div>
+                    <label>Role</label>
+                   <select>
+                       <option>Select the Role</option>
+                       <option>Select the Role</option>
+                    </select>
+                </div>
+                <div class="service-inputs">
+                    <label>Name</label>
+                    <div class="service-inputs-block">
+                        <input placeholder="First Name">
+                        <input placeholder="Last Name">
+                    </div>
+                </div>
+                <div>
+                    <label>Email</label>
+                    <input placeholder="myemail@gmail.com">
+                </div>
+            </div>
+            <div class="send-invoice-btns">
+                <a class="send-invoice-cancel-btn service-items-cancel">Cancel</a>
+                <a class="send-invoice-send-btn">Send</a>
+            </div>
+        </div>
+    </div>
+    <div class="dashboard-clients">
+        <div class="team-management team-management-2">
+            <div class="team-block-item active-team-block-item" id="team-info-block-item-1">Admin<img class="team-img team-img-active" src="img/my-team/up.png"></div>
+            <div class="team-block-item" id="team-info-block-item-2">Manager<img class="team-img" src="img/my-team/up.png"></div>
+            <div class="team-block-item" id="team-info-block-item-3">Employee<img class="team-img" src="img/my-team/up.png"></div>
+            <div class="team-block-item" id="team-info-block-item-4">Contractor<img class="team-img" src="img/my-team/up.png"></div>
+            <div class="team-block-item" id="team-info-block-item-5">Accountant<img class="team-img" src="img/my-team/up.png"></div>
+            <a class="team-block-item-last" href="ds-my-team.html"><img src="img/my-team/information-2.png"></a>
+        </div>
+        <div class="team-info-block">
+            <div class="team-info-block-item-1 team-info-blocks">
+               <p class="team-text-1">
+                  Bring your business partners and administrators into EDKOS, so they can access the
+                  financial information and the tools to help run your business.
+                </p>
+                <p class="team-text-2"><img src="img/my-team/can.png">View the dashboard and financial reports for your business, so they've got the whole picture</p>
+                <p class="team-text-2"><img src="img/my-team/can.png">Create invoices, estimates, retainers, projects, manage clients and your team</p>
+                <p class="team-text-2"><img src="img/my-team/can.png">Track their own time, and review time tracked by the rest of the team</p>
+                <p class="team-text-2"><img src="img/my-team/can.png">Manage account settings and bank connections</p>
+                <p class="team-lines"></p>
+                <p class="team-text-2"><img src="img/my-team/cant.png">Track their own time, and review time tracked by the rest of the team</p>
+                <p class="team-text-2"><img src="img/my-team/cant.png">Manage account settings and bank connections</p>
+            </div>
+            <div class="team-info-block-item-2">
+                   <p class="team-text-1">
+                      Give managers access to all the tools they need to help run your business, without access to financial reports, accounting tools or the dashboard.
+                    </p>
+                    <p class="team-text-2"><img src="img/my-team/can.png">View, create and edit all invoices, estimates, projects, clients, retainers, and tracked time</p>
+                    <p class="team-text-2"><img src="img/my-team/can.png">Track their own time, and review time tracked by the rest of the team</p>
+                    <p class="team-text-2"><img src="img/my-team/can.png">Create and view their own expenses</p>
+                    <p class="team-text-2"><img src="img/my-team/can.png">View non-financial reports: Accounts Aging, Time Entry Details and Retainer Summary Report</p>
+                    <p class="team-lines"></p>
+                    <p class="team-text-2"><img src="img/my-team/cant.png">View financial reports, accounting tools, or the dashboard</p>
+                    <p class="team-text-2"><img src="img/my-team/cant.png">Set up online payments or add a bank connection for the EDKOS account</p>
+                    <p class="team-text-2"><img src="img/my-team/cant.png">Manage add-ons or integrations</p>
+               </div>
+            <div class="team-info-block-item-3">
+                   <p class="team-text-1">
+                        Bring your business partners and administrators into EDKOS, so they can access the
+                        financial information and the tools to help run your business.
+                    </p>
+                    <p class="team-text-2"><img src="img/my-team/can.png">Track their time in EDKOS so you can keep an eye on budgets, and easily invoice clients for their work</p>
+                    <p class="team-text-2"><img src="img/my-team/can.png">Capture their expenses so you've got a complete view of your business</p>
+                    <p class="team-text-2"><img src="img/my-team/can.png">Keep up-to-date on project progress and share files</p>
+                    <p class="team-lines"></p>
+                    <p class="team-text-2"><img src="img/my-team/cant.png">Create or send invoices and retainers to clients</p>
+                    <p class="team-text-2"><img src="img/my-team/cant.png">View reports, accounting tools or financial information for your business</p>
+               </div>
+            <div class="team-info-block-item-4">
+                   <p class="team-text-1">
+                      Give your contractors a EDKOS account so they can track their time, capture
+                      expenses, and send you invoices directly. You’ll have all the information you need to
+                      stay on top of project progress.
+                    </p>
+                    <p class="team-text-2"><img src="img/my-team/can.png">Track time towards the projects you invite them to so you can track budgets and re-bill clients</p>
+                    <p class="team-text-2"><img src="img/my-team/can.png">Send you invoices through EDKOS so you know what's outstanding and can pay them online</p>
+                    <p class="team-text-2"><img src="img/my-team/can.png">See their own dashboard, invoices, clients, estimates, and expenses to run their business in EDKOS</p>
+                    <p class="team-lines"></p>
+                    <p class="team-text-2"><img src="img/my-team/cant.png">View any information from your business, other than the projects you invite them to</p>
+               </div>
+            <div class="team-info-block-item-5">
+                   <p class="team-text-1">
+                      Give your accountant easy access to the information they need, directly in your EDKOS account.<br>
+
+                      You'll save time by eliminating the back and forth with your accountant. Best of all, it's
+                      included in your plan.
+                    </p>
+                    <p class="team-text-2"><img src="img/my-team/can.png">Access accounting reports like the General Ledger, Balance Sheet and Profit and Loss</p>
+                    <p class="team-text-2"><img src="img/my-team/can.png">Add Journal Entries</p>
+                    <p class="team-text-2"><img src="img/my-team/can.png">Manage Chart of Accounts</p>
+                    <p class="team-text-2"><img src="img/my-team/can.png">Review and manage Invoices, Expenses, Payments and Other Income</p>
+                    <p class="team-lines"></p>
+                    <p class="team-text-2"><img src="img/my-team/cant.png">Manage Clients</p>
+                    <p class="team-text-2"><img src="img/my-team/cant.png">Track time or view projects</p>
+                    <p class="team-text-2"><img src="img/my-team/cant.png">Send invoices or estimates</p>
+               </div>
+        </div>
+    </div>
+    <div class="send-invoice-content team-member-popup">
+        <div class="send-invoice-top">
+            <img src="img/top.png">
+        </div>
+        <div class="send-invoice-title">
+            <p>Edit team member</p>
+        </div>
+        <div class="send-invoice-info" data-select2-id="13">
+           <div>
+                <label>David Mong</label>
+            </div>
+            <div>
+                <label>Role</label>
+               <select>
+                   <option>Admin</option>
+                   <option>Owner</option>
+                </select>
+            </div>
+            <div>
+                <label>Email</label>
+                <input placeholder="david_mong@gmail.com">
+            </div>
+            <div class="service-inputs">
+                <label>Billable rate (hourly) </label>
+                 <input placeholder="$ 0.00">
+            </div>
+        </div>
+        <div class="send-invoice-btns">
+            <a class="send-invoice-cancel-btn service-items-cancel">Cancel</a>
+            <a class="send-invoice-send-btn">Send</a>
+        </div>
+    </div>
+    <div class="send-invoice-content owner-member-popup">
+        <div class="send-invoice-top">
+            <img src="img/top.png">
+        </div>
+        <div class="send-invoice-title">
+            <p>Edit owner</p>
+        </div>
+        <div class="send-invoice-info">
+           <div>
+                <label>David Mong</label>
+            </div>
+            <div class="service-inputs">
+                <label>Billable rate (hourly) </label>
+                 <input placeholder="$ 0.00">
+            </div>
+        </div>
+        <div class="send-invoice-btns">
+            <a class="send-invoice-cancel-btn service-items-cancel">Cancel</a>
+            <a class="send-invoice-send-btn">Send</a>
+        </div>
+    </div>
+</main>
+<script src="libs/js/jquery-3.3.1.min.js"></script>
+<script src="libs/js/popper.min.js"></script>
+<script src="libs/js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
+
+
+
+
+
+

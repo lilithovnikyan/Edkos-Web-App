@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>EDKOS</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css"
+          integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+    <link rel="icon" href="img/logo.png"/>
+    <link rel="stylesheet" href="libs/css/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/css/font-awesome.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/ds-user-profile.css">
+    <link rel="stylesheet" href="css/ds-invoices.css">
+    <link rel="stylesheet" href="css/ds-clients.css">
+    <link rel="stylesheet" href="css/ds-invoice-template.css">
+    <link rel="stylesheet" href="css/ds-items-service.css">
+</head>
+<body>
+<aside>
+    <div class="aside-content">
+        <div class="user-data">
+            <img class="user-data-img" src="img/dashboard/user.png">
+            <h3 class="user-data-title">Lia Smith</h3>
+            <div class="open-close-arrow">
+                <img src="img/dashboard/arrow.png">
+            </div>
+        </div>
+        <div class="open-close-menu" id="style-1">
+            <div class="user-dashboard-1">
+                <div class="settings-block">
+                    <a class="settings-block-item">
+                        <div class="settings-block-item-img">
+                            <img src="img/dashboard/home.png">
+                        </div>
+                        <div class="settings-block-item-block">
+                            <h5 class="settings-block-item-text">Dashboard</h5>
+                        </div>
+                    </a>
+                    <a class="settings-block-item" href="ds-clients.html">
+                        <div class="settings-block-item-img">
+                            <img src="img/dashboard/clients.png">
+                        </div>
+                        <div class="settings-block-item-block">
+                            <h5 class="settings-block-item-text">Clients</h5>
+                        </div>
+                    </a>
+                    <a class="settings-block-item" href="ds-invoices.html">
+                        <div class="settings-block-item-img">
+                            <img src="img/dashboard/invoices.png">
+                        </div>
+                        <div class="settings-block-item-block">
+                            <h5 class="settings-block-item-text">Invoices</h5>
+                        </div>
+                    </a>
+                    <a class="settings-block-item" href="ds-expenses.html">
+                        <div class="settings-block-item-img">
+                            <img src="img/dashboard/expenses.png">
+                        </div>
+                        <div class="settings-block-item-block">
+                            <h5 class="settings-block-item-text">Expenses</h5>
+                        </div>
+                    </a>
+                    <a class="settings-block-item" href="ds-estimates.html">
+                        <div class="settings-block-item-img">
+                            <img src="img/dashboard/estimates.png">
+                        </div>
+                        <div class="settings-block-item-block">
+                            <h5 class="settings-block-item-text">Estimates</h5>
+                        </div>
+                    </a>
+                    <a class="settings-block-item" href="ds-time-tracking.html">
+                        <div class="settings-block-item-img">
+                            <img src="img/dashboard/tracking.png">
+                        </div>
+                        <div class="settings-block-item-block">
+                            <h5 class="settings-block-item-text">Tracking</h5>
+                        </div>
+                    </a>
+                    <a class="settings-block-item" href="ds-projects.html">
+                        <div class="settings-block-item-img">
+                            <img src="img/dashboard/projects.png">
+                        </div>
+                        <div class="settings-block-item-block">
+                            <h5 class="settings-block-item-text">Projects</h5>
+                        </div>
+                    </a>
+                    <a class="settings-block-item" href="ds-my-team.html">
+                        <div class="settings-block-item-img">
+                            <img src="img/dashboard/my-team.png">
+                        </div>
+                        <div class="settings-block-item-block">
+                            <h5 class="settings-block-item-text">My Team</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="user-dashboard-2">
+                <div class="settings-block back-color-settings">
+                    <h5 class="settings-block-title">Settings For You</h5>
+                    <a class="settings-block-item" href="ds-company-profile.html">
+                        <div class="settings-block-item-img">
+                            <img src="img/dashboard/home.png">
+                        </div>
+                        <div class="settings-block-item-block">
+                            <h5 class="settings-block-item-text">Company Profile</h5>
+                        </div>
+                    </a>
+                    <a class="settings-block-item active" href="ds-items-services.html">
+                        <div class="settings-block-item-img">
+                            <img src="img/dashboard/list.png">
+                        </div>
+                        <div class="settings-block-item-block">
+                            <h5 class="settings-block-item-text">Items & Services</h5>
+                        </div>
+                    </a>
+                    <a class="settings-block-item">
+                        <div class="settings-block-item-img">
+                            <img src="img/dashboard/cube.png">
+                        </div>
+                        <div class="settings-block-item-block">
+                            <h5 class="settings-block-item-text">Apps  & Integrations</h5>
+                        </div>
+                    </a>
+                    <a class="settings-block-item" href="ds-online-payment-options.html">
+                        <div class="settings-block-item-img">
+                            <img src="img/dashboard/payment.png">
+                        </div>
+                        <div class="settings-block-item-block">
+                            <h5 class="settings-block-item-text">Online Payments</h5>
+                        </div>
+                    </a>
+                    <a class="settings-block-item" href="ds-bank-connections.html">
+                        <div class="settings-block-item-img">
+                            <img src="img/dashboard/bank.png">
+                        </div>
+                        <div class="settings-block-item-block">
+                            <h5 class="settings-block-item-text">Bank Connections</h5>
+                        </div>
+                    </a>
+                    <a class="settings-block-item" href="ds-billing-upgrade.html">
+                        <div class="settings-block-item-img">
+                            <img src="img/dashboard/upgrade.png">
+                        </div>
+                        <div class="settings-block-item-block">
+                            <h5 class="settings-block-item-text">Billing & Upgrade</h5>
+                        </div>
+                    </a>
+                    <div class="green-line"></div>
+                </div>
+                <div class="settings-block">
+                    <h5 class="settings-block-title">Personal</h5>
+                    <a class="settings-block-item" href="ds-user-profile.html">
+                        <div class="settings-block-item-img">
+                            <img src="img/dashboard/user-small.png">
+                        </div>
+                        <div class="settings-block-item-block">
+                            <h5 class="settings-block-item-text">Your Profile</h5>
+                        </div>
+                    </a>
+                    <a class="settings-block-item">
+                        <div class="settings-block-item-img">
+                            <img src="img/dashboard/help.png">
+                        </div>
+                        <div class="settings-block-item-block">
+                            <h5 class="settings-block-item-text">Help</h5>
+                        </div>
+                    </a>
+                    <a class="settings-block-item" href="ds-add-new-business.html">
+                        <div class="settings-block-item-img">
+                            <img src="img/dashboard/add.png">
+                        </div>
+                        <div class="settings-block-item-block">
+                            <h5 class="settings-block-item-text">Add Another Business</h5>
+                        </div>
+                    </a>
+                    <a class="settings-block-item">
+                        <div class="settings-block-item-img">
+                            <img src="img/dashboard/log-out.png">
+                        </div>
+                        <div class="settings-block-item-block">
+                            <h5 class="settings-block-item-text">Log Out</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex justify-content-center align-items-center aside-logo">
+        <img src="img/dashboard/logo.png">
+    </div>
+</aside>
+<main class="clients">
+    <div class="dashboard-header">
+        <h1 class="dashboard-clients-title">Items & Services</h1>
+        <div class="clients-btns">
+            <a class="new-clients-btn items-service-block">NEW Item</a>
+        </div>
+        <div class="dashboard-form-mobile">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+    <div class="send-invoice items-service-send">
+        <div class="send-invoice-content" data-select2-id="14">
+            <div class="send-invoice-top">
+                <img src="img/top.png">
+            </div>
+            <div class="send-invoice-title">
+                <p>New item</p>
+            </div>
+            <div class="send-invoice-info" data-select2-id="13">
+                <div>
+                    <label>Name</label>
+                    <input placeholder="Enter a name">
+                </div>
+                <div>
+                    <label>Description</label>
+                    <input placeholder="Enter a description">
+                </div>
+                <div>
+                    <label>Rate</label>
+                    <input placeholder="Last Name">
+                </div>
+                <div>
+                    <label>Taxes</label>
+                    <input placeholder="">
+                </div>
+                <div class="service-inputs">
+                    <label>Name</label>
+                    <div class="service-inputs-block">
+                        <input placeholder="First Name">
+                        <input placeholder="Last Name">
+                    </div>
+                </div>
+            </div>
+            <div class="send-invoice-btns">
+                <a class="send-invoice-cancel-btn service-items-cancel">Cancel</a>
+                <a class="send-invoice-send-btn">Send</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="dashboard-clients">
+        <div class="projects-timing">
+            <div class="invoices-first-item">
+                <div class="invoice-item timeing-review item-service-create-item">
+                    <a class="image-upload">
+                        <label for="file-input" class="d-flex justify-content-center flex-column">
+                            <img src="img/add.svg">
+                            <h4 class="add-new-client">Create New Item</h4>
+                        </label>
+                    </a>
+                </div>
+            </div>
+            <a class="invoices-item-click" href="ds-items-services.html">
+                <div class="invoices-item">
+                    <div class="invoices-item-content">
+                        <img src="img/items-services/clipboard.png">
+                        <p class="invoices-item-content-p">Items</p>
+                    </div>
+                </div>
+            </a>
+            <a class="invoices-item-click" href="ds-items-services-2.html">
+                <div class="invoices-item invoices-disable-item">
+                    <div class="invoices-item-content">
+                        <img src="img/items-services/setting.png">
+                        <p class="invoices-item-content-p">Services</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="table-clients">
+            <div class="table-inner-search">
+                <div class="search-table">
+                    <button class="search-table-button"><img src="img/search.png"></button>
+                    <input class="search-table-input" placeholder="Search by item name, description, rate or taxes">
+                </div>
+            </div>
+            <table class="table">
+                <thead>
+                <tr class="table-title">
+                    <th>
+                        <label class="container">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                    </th>
+                    <th>
+                        <div class="dropdown">
+                            <a class="dropdown-toggle" id="dropdown-clients" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Item Name
+                                <img src="img/dashboard/select.png">
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown-clients">
+                                <button class="dropdown-item" type="button">Archived Items</button>
+                                <div class="inside-line"></div>
+                                <button class="dropdown-item" type="button">Deleted Items</button>
+                            </div>
+                        </div>
+                    </th>
+                    <th>Description</th>
+                    <th>Rate</th>
+                    <th>Taxes</th>
+                    <th class="del-top"></th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>
+                        <label class="container">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                    </td>
+                    <td>Consulting</td>
+                    <td>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</td>
+                    <td>$ 50,00</td>
+                    <td>14/12/2019</td>
+                    <td class="last">
+                        <img src="img/dashboard/edit.png">
+                        <img src="img/dashboard/archive.png">
+                        <img src="img/dashboard/delete.png">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="container">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                    </td>
+                    <td>Development</td>
+                    <td>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</td>
+                    <td>$ 50,00</td>
+                    <td>14/12/2019</td>
+                    <td class="last">
+                        <img src="img/dashboard/edit.png">
+                        <img src="img/dashboard/archive.png">
+                        <img src="img/dashboard/delete.png">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="container">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                    </td>
+                    <td>3d visualisation</td>
+                    <td>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</td>
+                    <td>$ 50,00</td>
+                    <td>14/12/2019</td>
+                    <td class="last">
+                        <img src="img/dashboard/edit.png">
+                        <img src="img/dashboard/archive.png">
+                        <img src="img/dashboard/delete.png">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="container">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                    </td>
+                    <td>Development</td>
+                    <td>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</td>
+                    <td>$ 50,00</td>
+                    <td>14/12/2019</td>
+                    <td class="last">
+                        <img src="img/dashboard/edit.png">
+                        <img src="img/dashboard/archive.png">
+                        <img src="img/dashboard/delete.png">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="container">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                    </td>
+                    <td>Graphic design</td>
+                    <td>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</td>
+                    <td>$ 50,00</td>
+                    <td>14/12/2019</td>
+                    <td class="last">
+                        <img src="img/dashboard/edit.png">
+                        <img src="img/dashboard/archive.png">
+                        <img src="img/dashboard/delete.png">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="container">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                    </td>
+                    <td>Development</td>
+                    <td>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</td>
+                    <td>$ 50,00</td>
+                    <td>14/12/2019</td>
+                    <td class="last">
+                        <img src="img/dashboard/edit.png">
+                        <img src="img/dashboard/archive.png">
+                        <img src="img/dashboard/delete.png">
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <div class="pagination">
+                <a href="#"><i class="fas fa-chevron-left"></i></a>
+                <a href="#">1</a>
+                <a class="active" href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">5</a>
+                <a href="#">6</a>
+                <a href="#"><i class="fas fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </div>
+</main>
+<script src="libs/js/jquery-3.3.1.min.js"></script>
+<script src="libs/js/popper.min.js"></script>
+<script src="libs/js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

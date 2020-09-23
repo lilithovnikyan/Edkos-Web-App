@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>EDKOS</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css"
+              integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+        <link rel="icon" href="img/logo.png"/>
+        <link rel="stylesheet" href="libs/css/bootstrap.min.css">
+        <link rel="stylesheet" href="libs/css/font-awesome.css">
+        <link rel="stylesheet" href="css/font.css">
+        <link rel="stylesheet" href="css/ds-user-profile.css">
+        <link rel="stylesheet" href="css/ds-clients.css">
+        <link rel="stylesheet" href="css/ds-invoices.css">
+        <link rel="stylesheet" href="css/ds-expense.css">
+        <link rel="stylesheet" href="css/ds-billing.css">
+        <link rel="stylesheet" href="css/ds-online-payment.css">
+    </head>
+    <body>
+        <aside>
+            <div class="aside-content">
+                <div class="user-data">
+                    <img class="user-data-img" src="img/dashboard/user.png">
+                    <h3 class="user-data-title">Lia Smith</h3>
+                    <div class="open-close-arrow">
+                        <img src="img/dashboard/arrow.png">
+                    </div>
+                </div>
+                <div class="open-close-menu" id="style-1">
+                    <div class="user-dashboard-1">
+                        <div class="settings-block">
+                            <a class="settings-block-item">
+                                <div class="settings-block-item-img">
+                                    <img src="img/dashboard/home.png">
+                                </div>
+                                <div class="settings-block-item-block">
+                                    <h5 class="settings-block-item-text">Dashboard</h5>
+                                </div>
+                            </a>
+                            <a class="settings-block-item" href="ds-clients.html">
+                                <div class="settings-block-item-img">
+                                    <img src="img/dashboard/clients.png">
+                                </div>
+                                <div class="settings-block-item-block">
+                                    <h5 class="settings-block-item-text">Clients</h5>
+                                </div>
+                            </a>
+                            <a class="settings-block-item" href="ds-invoices.html">
+                                <div class="settings-block-item-img">
+                                    <img src="img/dashboard/invoices.png">
+                                </div>
+                                <div class="settings-block-item-block">
+                                    <h5 class="settings-block-item-text">Invoices</h5>
+                                </div>
+                            </a>
+                            <a class="settings-block-item active" href="ds-expenses.html">
+                                <div class="settings-block-item-img">
+                                    <img src="img/dashboard/expenses.png">
+                                </div>
+                                <div class="settings-block-item-block">
+                                    <h5 class="settings-block-item-text">Expenses</h5>
+                                </div>
+                            </a>
+                            <a class="settings-block-item" href="ds-estimates.html">
+                                <div class="settings-block-item-img">
+                                    <img src="img/dashboard/estimates.png">
+                                </div>
+                                <div class="settings-block-item-block">
+                                    <h5 class="settings-block-item-text">Estimates</h5>
+                                </div>
+                            </a>
+                            <a class="settings-block-item" href="ds-time-tracking.html">
+                                <div class="settings-block-item-img">
+                                    <img src="img/dashboard/tracking.png">
+                                </div>
+                                <div class="settings-block-item-block">
+                                    <h5 class="settings-block-item-text">Tracking</h5>
+                                </div>
+                            </a>
+                            <a class="settings-block-item" href="ds-projects.html">
+                                <div class="settings-block-item-img">
+                                    <img src="img/dashboard/projects.png">
+                                </div>
+                                <div class="settings-block-item-block">
+                                    <h5 class="settings-block-item-text">Projects</h5>
+                                </div>
+                            </a>
+                            <a class="settings-block-item" href="ds-my-team.html">
+                                <div class="settings-block-item-img">
+                                    <img src="img/dashboard/my-team.png">
+                                </div>
+                                <div class="settings-block-item-block">
+                                    <h5 class="settings-block-item-text">My Team</h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="user-dashboard-2">
+                        <div class="settings-block back-color-settings">
+                            <h5 class="settings-block-title">Settings For You</h5>
+                            <a class="settings-block-item" href="ds-company-profile.html">
+                                <div class="settings-block-item-img">
+                                    <img src="img/dashboard/home.png">
+                                </div>
+                                <div class="settings-block-item-block">
+                                    <h5 class="settings-block-item-text">Company Profile</h5>
+                                </div>
+                            </a>
+                            <a class="settings-block-item" href="ds-items-services.html">
+                                <div class="settings-block-item-img">
+                                    <img src="img/dashboard/list.png">
+                                </div>
+                                <div class="settings-block-item-block">
+                                    <h5 class="settings-block-item-text">Items & Services</h5>
+                                </div>
+                            </a>
+                            <a class="settings-block-item">
+                                <div class="settings-block-item-img">
+                                    <img src="img/dashboard/cube.png">
+                                </div>
+                                <div class="settings-block-item-block">
+                                    <h5 class="settings-block-item-text">Apps  & Integrations</h5>
+                                </div>
+                            </a>
+                            <a class="settings-block-item" href="ds-online-payment-options.html">
+                                <div class="settings-block-item-img">
+                                    <img src="img/dashboard/payment.png">
+                                </div>
+                                <div class="settings-block-item-block">
+                                    <h5 class="settings-block-item-text">Online Payments</h5>
+                                </div>
+                            </a>
+                            <a class="settings-block-item" href="ds-bank-connections.html">
+                                <div class="settings-block-item-img">
+                                    <img src="img/dashboard/bank.png">
+                                </div>
+                                <div class="settings-block-item-block">
+                                    <h5 class="settings-block-item-text">Bank Connections</h5>
+                                </div>
+                            </a>
+                            <a class="settings-block-item active" href="ds-billing-upgrade.html">
+                                <div class="settings-block-item-img">
+                                    <img src="img/dashboard/upgrade.png">
+                                </div>
+                                <div class="settings-block-item-block">
+                                    <h5 class="settings-block-item-text">Billing & Upgrade</h5>
+                                </div>
+                            </a>
+                            <div class="green-line"></div>
+                        </div>
+                        <div class="settings-block">
+                            <h5 class="settings-block-title">Personal</h5>
+                            <a class="settings-block-item" href="ds-user-profile.html">
+                                <div class="settings-block-item-img">
+                                    <img src="img/dashboard/user-small.png">
+                                </div>
+                                <div class="settings-block-item-block">
+                                    <h5 class="settings-block-item-text">Your Profile</h5>
+                                </div>
+                            </a>
+                            <a class="settings-block-item">
+                                <div class="settings-block-item-img">
+                                    <img src="img/dashboard/help.png">
+                                </div>
+                                <div class="settings-block-item-block">
+                                    <h5 class="settings-block-item-text">Help</h5>
+                                </div>
+                            </a>
+                            <a class="settings-block-item" href="ds-add-new-business.html">
+                                <div class="settings-block-item-img">
+                                    <img src="img/dashboard/add.png">
+                                </div>
+                                <div class="settings-block-item-block">
+                                    <h5 class="settings-block-item-text">Add Another Business</h5>
+                                </div>
+                            </a>
+                            <a class="settings-block-item">
+                                <div class="settings-block-item-img">
+                                    <img src="img/dashboard/log-out.png">
+                                </div>
+                                <div class="settings-block-item-block">
+                                    <h5 class="settings-block-item-text">Log Out</h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center align-items-center aside-logo">
+                <img src="img/dashboard/logo.png">
+            </div>
+        </aside>
+        <main class="clients invoices billing-upgrade-content">
+            <div class="dashboard-header">
+                <h1 class="dashboard-clients-title">Billing & Upgrade</h1>
+                <div class="clients-btns">
+                    <a class="exp-clients-btn" href="ds-billing-upgrade-monthly.html">CANCEL</a>
+                    <a class="new-clients-btn">PAY</a>
+                </div>
+                <div class="dashboard-form-mobile">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <div class="new-expense-content">
+                <a class="expense-back" href="ds-billing-upgrade-monthly.html">
+                    <img src="img/invoices/back.png">
+                    <span>Back</span>
+                </a>
+                <div class="new-expense-left">
+                    <div class="new-expense-add-category">
+                        <div class="growth-block">
+                            <div class="growth-block-text">GROWTH</div>
+                            <div class="growth-block-text">€29<span>/mo</span></div>
+                        </div>
+                        <div class="clients-50">50 clients</div>
+                        <div class="billed-monthly">Billed monthly</div>
+                        <div class="pay-variant">
+                            or pay <a>yearly and you will
+                            save 50% for first year</a>
+                        </div>
+                        <div class="growth-block">
+                            <div class="growth-block-text">Team member</div>
+                            <div class="growth-block-text">+ €0<span>/mo</span></div>
+                        </div>
+                        <div class="clients-50">0</div>
+                        <div class="new-expense-line"></div>
+                        <div class="new-expense-data-line">
+                            <div class="new-expense-first-line">Subtotal</div>
+                            <div>€39.00</div>
+                        </div>
+                        <div class="new-expense-data-line">
+                            <div class="new-expense-first-line">Discount (0%)</div>
+                            <div>-€0.00</div>
+                        </div>
+                        <div class="choose-tax">
+                            <div class="new-expense-data-line tax">
+                                <div class="new-expense-first-line">Tax</div>
+                                <div>€0.00</div>
+                            </div>
+                            <div class="tax-open-close tax-clickable-block">
+                                <img src="img/expenses/triangle-top.png">
+                                <div class="next-expense-data">
+                                    <select>
+                                        <option>Choose country</option>
+                                        <option>Choose country</option>
+                                    </select>
+                                    <select>
+                                        <option>Tax rate</option>
+                                        <option>Tax rate</option>
+                                        <option>Tax rate</option>
+                                        <option>Tax rate</option>
+                                        <option>Tax rate</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="new-expense-line-second"></div>
+                        <div class="new-expense-data-line bold">
+                            <div class="new-expense-first-line">Grand Total:</div>
+                            <div>€39.00 USD</div>
+                        </div>
+                    </div>
+                    <div class="new-expense-circle">
+                        <img src="img/expenses/block.png">
+                    </div>
+                </div>
+                <div class="new-expense-right">
+                    <div class="billing-pay-content">
+                        <div class="cards">
+                            <div class="cards-block border-green check-over">
+                                <img class="cards-png" src="img/Visa.png">
+                                <img class="check-green" src="img/green-check.png">
+                            </div>
+                            <div class="cards-block">
+                                <img class="cards-png" src="img/Mastercard.png">
+                                <img class="check-green" src="img/green-check.png">
+                            </div>
+                            <div class="cards-block">
+                                <img class="cards-png" src="img/Paypal.png">
+                                <img class="check-green" src="img/green-check.png">
+                            </div>
+                        </div>
+                        <div>
+                            <form class="card-form">
+                                <div class="input-block">
+                                    <label>Enter card number</label>
+                                    <input class="enter-card" placeholder="**** **** **** ****">
+                                </div>
+                                <div class="input-block">
+                                    <label>Card holder</label>
+                                    <input class="enter-card" placeholder="Card holder">
+                                </div>
+                                <div class="input-block">
+                                    <div class="small-img">
+                                        <div class="">
+                                            <label>Expiry date</label>
+                                            <input class="expiry-date" placeholder="MM/YY">
+                                        </div>
+                                        <div class="">
+                                            <label>CVV code</label>
+                                            <input class="expiry-date" placeholder="***">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="line-pay"></div>
+                                <div class="input-block position-relative">
+                                    <label>Billing Address</label>
+                                    <select class="enter-card" placeholder="Street">
+                                        <option>Street</option>
+                                    </select>
+                                    <img class="select-icon mobile-top-big" src="img/dashboard/select.png">
+                                </div>
+                                <div class="input-block">
+                                    <label></label>
+                                    <input class="enter-card" placeholder="Country">
+                                </div>
+                                <div class="input-block position-relative">
+                                    <label></label>
+                                    <select class="enter-card" placeholder="State">
+                                        <option>State</option>
+                                    </select>
+                                    <img class="select-icon" src="img/dashboard/select.png">
+                                </div>
+                                <div class="input-block">
+                                    <label></label>
+                                    <input class="enter-card" placeholder="City">
+                                </div>
+                                <div class="input-block">
+                                    <label></label>
+                                    <input class="enter-card" placeholder="ZIP Code">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+        <script src="libs/js/jquery-3.3.1.min.js"></script>
+        <script src="libs/js/popper.min.js"></script>
+        <script src="libs/js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
+
+
+
+
